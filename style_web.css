@@ -1,12 +1,51 @@
 body{
     background-color: gray;
 }
-#header_page{
-    background-color: white;
-}
 #main_page{
     background-color: white;
     margin: 100px;
     border-radius: 10px;
+}
 
+/* header */
+#header_page{
+    background-color: white;
+}
+#magnifying_icon{
+    width: 30px;
+    height: 30px;
+    margin: 25px;
+    margin-left:200px;
+    cursor: pointer; 
+    border:5px solid white;
+    border-radius: 5px;
+}
+#magnifying_icon:hover{
+    border-color:gray;
+}
+#moon_icon{
+    width: 30px;
+    height: 30px;
+    margin-top:25px;
+    margin-bottom: 25px;
+    margin-right: 25px;
+    cursor: pointer;
+    border:5px solid white;
+    border-radius: 5px;
+}
+#moon_icon:hover{
+    border-color:gray;
+}
+#email_icon{
+    width: 30px;
+    height: 30px;
+    margin-top:25px;
+    margin-bottom: 25px;
+    margin-right: 25px;
+    cursor: pointer;
+    border:5px solid white;
+    border-radius: 5px;
+}
+#email_icon:hover{
+    border-color:gray;
 }
