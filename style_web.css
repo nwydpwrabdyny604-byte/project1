@@ -1,15 +1,23 @@
 body{
     background-color: gray;
+    border: 10px solid black;
+    margin: 0px;
 }
 #main_page{
     background-color: white;
     margin: 100px;
+    border: 10px dashed black;
     border-radius: 10px;
 }
 
 /* header */
 #header_page{
-    background-color: white;
+    background-color:gray;
+    position: fixed;
+    top: 0px;
+    left:0px;
+    right: 0px;
+    border: 10px solid black;
 }
 #magnifying_icon{
     width: 30px;
