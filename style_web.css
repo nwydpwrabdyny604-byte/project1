@@ -12,7 +12,7 @@ body{
 
 /* header */
 #header_page{
-    background-color:gray;
+    background-color:whitesmoke;
     position: fixed;
     top: 0px;
     left:0px;
@@ -56,4 +56,37 @@ body{
 }
 #email_icon:hover{
     border-color:gray;
+}
+/*navigationbar*/
+#navigationbar{
+    display: inline-block;
+    background-color: white;
+    margin-top: 200px;
+    width: 500px;
+    height: 250px;
+    margin-left: 100px;
+    border: 10px dashed black;
+    border-radius: 10px;
+}
+#linker{
+    text-decoration: none;
+}
+#text_linker{
+    color:gray;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 90px;
+}
+#title_of_web{
+    display: inline-block;
+    margin-left: 400px;
+    font-size: 50px;
+}
+#navid{
+    color: rgb(235, 203, 18);
+    text-shadow: 5px 5px 0px black;
+}
+#games{
+    color: rgb(235, 203, 18);
+    text-shadow: 5px 5px 0px black;
 }
